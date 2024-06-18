@@ -5,7 +5,9 @@ should return false otherwise.
 */
 
 // Your code here 
-
+function compareLengths(arr1, arr2) {
+    return arr1.length !== arr2.length
+}
 
 // let a1 = ['a', 'b', 'c'];
 // let a2 = ['w', 'x', 'y'];

@@ -5,11 +5,35 @@ is empty, it should return null.
 */
 
 // Your code here 
+function avgVal(arr) {
+    if (arr.length == 0) {
+        return null
+    } else {
+        let average = 0
+    for (let i = 0; i < arr.length; i++) {
+        let num = arr[i]
+        average += num
+    }
+    average = average / arr.length
+    return average
+
+    }
+        
+    }
+    
 
 
-// console.log(avgVal([5, 10]));         // 7.5
-// console.log(avgVal([3, 7, 2, 1, 2])); // 3
-// console.log(avgVal([]));              // null
+
+
+    //get the length of the array
+
+
+     //divid the array sum by the length
+
+
+console.log(avgVal([5, 10]));         // 7.5
+console.log(avgVal([3, 7, 2, 1, 2])); // 3
+console.log(avgVal([]));              // null
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 module.exports = avgVal;
